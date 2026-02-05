@@ -168,3 +168,32 @@ nav a::after{
 .hero .container{
     display: flex;
 }
+
+.hero-subtitle{
+    font-size: 20px;
+    color: var(--coffee-accent);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-subtitle::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--coffee-gold);
+}
+
+.hero-title{
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    color: var(--coffee-light);
+}
+
+.hero-title span{
+    
+}
