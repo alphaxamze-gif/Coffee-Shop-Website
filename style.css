@@ -1,0 +1,62 @@
+:root{
+    --coffee-dark: #3E2723;
+    --coffe-medium: #6F4E37;
+    --coffee-light: #C4A484;
+    --coffee-accent: #D2B48C;
+    --coffee-cream: #F5F5DC;
+    --coffee-gold: #D4AF37;
+    --text-dark: #2C2416;
+    --text-light: #f3f3f3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: var(--coffee-cream);
+    color: var(--text-dark);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.container{
+      width: 92%;
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+header{
+    background: #161515;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    transition: all0.4s ease;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-icon{
+    color: var(--coffee-gold);
+    font-size: 28px;
+}
+
+.logo-text{
+     font-family: ;
+}
