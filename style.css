@@ -195,5 +195,18 @@ nav a::after{
 }
 
 .hero-title span{
-    
+    color: var(--coffee-gold);
+    position: relative;
+}
+
+.hero-text{
+    font-size: 16px;
+    margin-bottom: 120px;
+    max-width: 700px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
 }
