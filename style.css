@@ -137,3 +137,34 @@ nav a::after{
     background: rgb(from 111, 78, 55, 0.05);
     transform: translateY(-px);
 }
+
+/* Hero Section */
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0B0705 0%, #010000 50%);
+    z-index: -1;
+}
+
+.hero-content{
+    width: 750px;
+    color: var(--coffee-light);
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero .container{
+    display: flex;
+}
