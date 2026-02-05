@@ -126,3 +126,14 @@ nav a::after{
     background: var(--coffee-dark);
     transform: translateY(-3px);
 }
+
+.btn-secondary{
+    background: transparent;
+    color: var(--coffe-medium);
+    border: 2px solid var(--coffe-medium);
+}
+
+.btn-secondary:hover{
+    background: rgb(from 111, 78, 55, 0.05);
+    transform: translateY(-px);
+}
